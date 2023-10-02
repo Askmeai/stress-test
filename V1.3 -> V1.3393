@@ -1,0 +1,30 @@
+ASKMEAI STRESS TEST RESULTS
+
+1. Test Date and Time:
+   - Date: 27 SEPT 2023 09:00 UTC - 02 OCT 2023 09:00 UTC
+   - Time: Total 96 Hours (Non-Stop)
+
+2. Tested Model:
+   - Model Name: ASKMEAI 
+   - Model Version: 1.3993
+
+3. Test Parameters:
+Priority "Accessing the queried projects, collecting data, analyzing data naming, establishing relationships, and generating a meaningful score."
+    - Parameter 1: Processor
+    - Parameter 2: RAM - Memory Usage
+    - Parameter 3: Power Outage - 
+    - Parameter 4: Attack
+   
+4. Results:
+238 projects were queried. 
+The longest process took 2 minutes and 2 seconds, while the shortest took 48 seconds. 
+Long-duration transactions occurred in cases where project links were not properly provided.
+Out of the 238 project queries, 
+18 resulted in errors, 
+1 of them is done-done(Double verified, error)
+The remaining 219 were completed successfully, and points were generated. 
+As shown in the following section, 16 out of the 18 incorrect queries were not project names or links.
+   - Metric 1: Sufficient. It peaked at 100% usage once throughout the entire test.
+   - Metric 2: Sufficient . There were no memory usage problems throughout the test.
+   - Metric 3: The power outage could not be tested, but the server was restarted during the query. The query process was lost and a new query was required.
+   - Metric 4: There are no results.
